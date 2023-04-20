@@ -5,6 +5,6 @@ This project is a simple random password generator, created in C++. With this pr
 * Numbers (0-9)
 * Special characters (!, #, $, %, &, *, <, >, ?, @, ^, _)
 
-There special characters that are excluded from generation. These characters are `()-=+[]\;:'",./ and they may change in the future to be included in generation. If the random generator does generate an excluded character, it will reassign the character to be something else.
+There are special characters that are excluded from generation. These characters are `()-=+[]\;:'",./ and they may be included in generation in the future. If the random generator does generate an excluded character, it will reassign the character to be something else.
 
 After the password is generated, it is then printed to the console. From the console, you can copy your generated password and use it where ever you like.
